@@ -1,0 +1,5 @@
+/vendor/
+/dist/
+/.phpunit.cache/
+/dev/.env
+/dev/artifacts/

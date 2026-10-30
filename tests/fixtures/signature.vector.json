@@ -1,0 +1,6 @@
+{
+  "secret": "vz_dev_secret_test_0001",
+  "timestamp": "1761650000",
+  "body": "{\"source\":\"android_sms\",\"sender\":\"+98700717\",\"body\":\"بانک ملت\\nواریز: 8,500,430 ریال\",\"received_at\":\"2026-10-28T10:31:58.120Z\",\"client_event_id\":\"01JBX4Q8M6ABCDEF\"}",
+  "header": "t=1761650000,v1=f2a45767b35d0a979caf4d482909108d1fd358505966132cff699f7aa55659ac"
+}

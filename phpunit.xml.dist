@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+	bootstrap="tests/bootstrap.php"
+	colors="true"
+	cacheDirectory=".phpunit.cache"
+	failOnWarning="true"
+	failOnRisky="true">
+	<testsuites>
+		<testsuite name="unit">
+			<directory>tests/Unit</directory>
+		</testsuite>
+	</testsuites>
+	<source>
+		<include>
+			<file>src/Support/Amount.php</file>
+			<file>src/Support/Format.php</file>
+			<file>src/Support/IdempotencyKey.php</file>
+			<file>src/Support/Phone.php</file>
+			<file>src/Support/Redactor.php</file>
+			<file>src/Webhook/SignatureVerifier.php</file>
+			<file>src/Order/StatusMapper.php</file>
+			<file>src/Connect/Pkce.php</file>
+			<file>src/Edd/EddStatusMapper.php</file>
+		</include>
+	</source>
+</phpunit>

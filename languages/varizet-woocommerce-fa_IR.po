@@ -1,0 +1,2099 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Varizet for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/varizet-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-28T18:00:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: fa_IR\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: varizet-woocommerce\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Plugin Name of the plugin
+#: varizet-woocommerce.php
+msgid "Varizet for WooCommerce"
+msgstr "واریزت برای ووکامرس"
+
+#. Plugin URI of the plugin
+#: varizet-woocommerce.php
+msgid "https://varizet.ir/integrations/woocommerce"
+msgstr ""
+
+#. Author of the plugin
+#: varizet-woocommerce.php
+#: src/Admin/SettingsPage.php:55
+#: src/Admin/SettingsPage.php:56
+#: src/Admin/SettingsPage.php:236
+#: src/Admin/SettingsPage.php:240
+#: src/Admin/SettingsPage.php:473
+#: src/Edd/EddGateway.php:264
+#: src/Edd/EddGateway.php:286
+#: src/Gateway/BlocksSupport.php:102
+#: src/Health/SiteHealth.php:128
+#: src/Health/SiteHealth.php:168
+#: src/Order/ListTable.php:59
+#: src/Order/ListTable.php:64
+#: src/Order/MetaBox.php:48
+msgid "Varizet"
+msgstr "واریزت"
+
+#. Author URI of the plugin
+#: varizet-woocommerce.php
+msgid "https://varizet.ir"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:63
+#: src/Admin/SettingsPage.php:91
+#: src/Admin/SettingsPage.php:231
+#: src/Edd/EddGateway.php:291
+msgid "Connection"
+msgstr "اتصال"
+
+#: src/Admin/SettingsPage.php:64
+#: src/Admin/SettingsPage.php:232
+msgid "Gateway settings"
+msgstr "تنظیمات درگاه"
+
+#: src/Admin/SettingsPage.php:65
+#: src/Admin/SettingsPage.php:233
+msgid "System status"
+msgstr "وضعیت سیستم"
+
+#: src/Admin/SettingsPage.php:92
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/Admin/SettingsPage.php:130
+#: src/ThankYou/LiveStatus.php:116
+msgid "Copied"
+msgstr "کپی شد"
+
+#: src/Admin/SettingsPage.php:131
+msgid "Disconnect this environment? Checkout stops offering Varizet until you connect again."
+msgstr "اتصال این محیط قطع شود؟ تا اتصال دوباره، واریزت در صفحه تسویه حساب نمایش داده نمی‌شود."
+
+#: src/Admin/SettingsPage.php:184
+msgid "Varizet: the stored API key can no longer be decrypted (the site salts changed)."
+msgstr "واریزت: کلید API ذخیره‌شده دیگر قابل رمزگشایی نیست (کلیدهای امنیتی سایت تغییر کرده‌اند)."
+
+#: src/Admin/SettingsPage.php:186
+msgid "Enter the key again"
+msgstr "کلید را دوباره وارد کنید"
+
+#: src/Admin/SettingsPage.php:193
+msgid "Varizet is almost ready. Connect the store to your Varizet account to offer card-to-card payment with automatic confirmation at checkout."
+msgstr "واریزت تقریباً آماده است. برای فعال شدن پرداخت کارت‌به‌کارت با تایید خودکار در صفحه تسویه حساب، فروشگاه را به حساب واریزت متصل کنید."
+
+#: src/Admin/SettingsPage.php:195
+#: src/Admin/SettingsPage.php:448
+msgid "Connect to Varizet"
+msgstr "اتصال به واریزت"
+
+#: src/Admin/SettingsPage.php:205
+#: src/Admin/SettingsPage.php:947
+#: src/Connect/ConnectController.php:289
+msgid "You are not allowed to manage Varizet."
+msgstr "اجازه مدیریت واریزت را ندارید."
+
+#: src/Admin/SettingsPage.php:240
+msgid "Card-to-card payments with automatic confirmation for WooCommerce"
+msgstr "کارت‌به‌کارت با تایید خودکار برای ووکامرس"
+
+#. translators: %s: plugin version.
+#: src/Admin/SettingsPage.php:244
+#, php-format
+msgid "Version %s"
+msgstr "نسخه %s"
+
+#: src/Admin/SettingsPage.php:253
+msgid "Not connected"
+msgstr "متصل نیست"
+
+#. translators: %s: Varizet store name.
+#: src/Admin/SettingsPage.php:256
+#, php-format
+msgid "Connected to %s"
+msgstr "متصل به %s"
+
+#: src/Admin/SettingsPage.php:258
+#: src/Admin/SettingsPage.php:311
+msgid "Connected"
+msgstr "متصل"
+
+#: src/Admin/SettingsPage.php:261
+#: src/Admin/SettingsPage.php:313
+#: src/Admin/SettingsPage.php:582
+#: templates/thankyou-widget.php:41
+msgid "Test mode"
+msgstr "حالت تست"
+
+#: src/Admin/SettingsPage.php:266
+msgid "Docs"
+msgstr "مستندات"
+
+#: src/Admin/SettingsPage.php:267
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: src/Admin/SettingsPage.php:269
+msgid "Varizet sections"
+msgstr "بخش‌های واریزت"
+
+#: src/Admin/SettingsPage.php:300
+msgid "Test mode is on."
+msgstr "حالت تست فعال است."
+
+#: src/Admin/SettingsPage.php:300
+msgid "Orders are created with your test key and deposits are simulated in the Varizet panel. Switch back to Live before sending real customers."
+msgstr "سفارش‌ها با کلید تست ساخته می‌شوند و واریز را از پنل واریزت شبیه‌سازی می‌کنید. پیش از ارسال مشتری واقعی، به Live برگردید."
+
+#: src/Admin/SettingsPage.php:303
+msgid "No webhook secret is saved for this environment, so payments arrive only through the 2-minute background sync. Register the webhook URL below in the Varizet panel and save its secret."
+msgstr "برای این محیط secret وب‌هوک ذخیره نشده است؛ پرداخت‌ها فقط با همگام‌سازی پشتیبان هر ۲ دقیقه می‌رسند. آدرس وب‌هوک زیر را در پنل واریزت ثبت و secret آن را ذخیره کنید."
+
+#. translators: 1: connection method, 2: user, 3: date.
+#: src/Admin/SettingsPage.php:321
+#, php-format
+msgid "%1$s by %2$s on %3$s"
+msgstr "%1$s توسط %2$s در %3$s"
+
+#: src/Admin/SettingsPage.php:322
+msgid "Connected with one click"
+msgstr "متصل‌شده با اتصال یک‌کلیکی"
+
+#: src/Admin/SettingsPage.php:322
+msgid "Connected manually"
+msgstr "متصل‌شده به‌صورت دستی"
+
+#: src/Admin/SettingsPage.php:332
+#: src/Gateway/Gateway.php:78
+#: src/Health/SiteHealth.php:120
+msgid "Environment"
+msgstr "محیط"
+
+#: src/Admin/SettingsPage.php:334
+msgid "Live, real payments"
+msgstr "Live، پرداخت واقعی"
+
+#: src/Admin/SettingsPage.php:334
+msgid "Test, Sandbox"
+msgstr "Test، Sandbox"
+
+#: src/Admin/SettingsPage.php:337
+msgid "Change in gateway settings"
+msgstr "تغییر در تنظیمات درگاه"
+
+#: src/Admin/SettingsPage.php:339
+#: src/Admin/SettingsPage.php:498
+#: src/Health/HealthChecks.php:85
+msgid "API key"
+msgstr "کلید API"
+
+#. translators: %d: milliseconds.
+#: src/Admin/SettingsPage.php:344
+#: src/Admin/SettingsPage.php:609
+msgid "Webhook"
+msgstr "وب‌هوک"
+
+#: src/Admin/SettingsPage.php:346
+msgid "Verified"
+msgstr "تاییدشده"
+
+#: src/Admin/SettingsPage.php:348
+msgid "Waiting for the first event"
+msgstr "در انتظار اولین رویداد"
+
+#: src/Admin/SettingsPage.php:350
+msgid "No secret"
+msgstr "بدون secret"
+
+#: src/Admin/SettingsPage.php:353
+#: src/Admin/SettingsPage.php:509
+#: src/Order/MetaBox.php:142
+#: src/ThankYou/LiveStatus.php:117
+msgid "Copy"
+msgstr "کپی"
+
+#: src/Admin/SettingsPage.php:354
+msgid "HMAC-SHA256 signature, 300-second window"
+msgstr "امضای HMAC-SHA256، پنجره ۳۰۰ ثانیه"
+
+#: src/Admin/SettingsPage.php:356
+msgid "Last event"
+msgstr "آخرین رویداد"
+
+#: src/Admin/SettingsPage.php:365
+#: src/Admin/SettingsPage.php:542
+msgid "No webhook received yet."
+msgstr "هنوز وب‌هوکی دریافت نشده است."
+
+#: src/Admin/SettingsPage.php:368
+msgid "Background sync"
+msgstr "همگام‌سازی پشتیبان"
+
+#. translators: 1: time since last run, 2: open orders checked.
+#: src/Admin/SettingsPage.php:373
+#, php-format
+msgid "Every 2 minutes with Action Scheduler; last run %1$s, %2$d open orders checked."
+msgstr "هر ۲ دقیقه با Action Scheduler؛ آخرین اجرا %1$s، %2$d سفارش باز بررسی شد."
+
+#. translators: 1: ok deliveries, 2: total deliveries.
+#: src/Admin/SettingsPage.php:374
+#: src/Admin/SettingsPage.php:610
+#: src/Health/HealthChecks.php:145
+msgid "not yet"
+msgstr "هنوز نه"
+
+#: src/Admin/SettingsPage.php:382
+msgid "Open the Varizet panel"
+msgstr "باز کردن پنل واریزت"
+
+#: src/Admin/SettingsPage.php:383
+#: src/Admin/SettingsPage.php:613
+msgid "Test connection"
+msgstr "تست اتصال"
+
+#: src/Admin/SettingsPage.php:389
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: src/Admin/SettingsPage.php:396
+msgid "Webhooks, last 24 hours"
+msgstr "وب‌هوک‌ها، ۲۴ ساعت اخیر"
+
+#: src/Admin/SettingsPage.php:396
+msgid "Live feed"
+msgstr "زنده"
+
+#: src/Admin/SettingsPage.php:398
+msgid "Delivered"
+msgstr "تحویل‌شده"
+
+#: src/Admin/SettingsPage.php:399
+msgid "Rejected"
+msgstr "ردشده"
+
+#: src/Admin/SettingsPage.php:400
+msgid "Open orders"
+msgstr "سفارش‌های باز"
+
+#: src/Admin/SettingsPage.php:404
+msgid "Recent webhook events"
+msgstr "رویدادهای اخیر وب‌هوک"
+
+#: src/Admin/SettingsPage.php:404
+msgid "All logs"
+msgstr "همه لاگ‌ها"
+
+#: src/Admin/SettingsPage.php:411
+msgid "Change keys or add the other environment"
+msgstr "تغییر کلیدها یا افزودن محیط دیگر"
+
+#: src/Admin/SettingsPage.php:429
+msgid "The stored API key can no longer be decrypted (the site salts changed). Enter the key again below."
+msgstr "کلید API ذخیره‌شده دیگر قابل رمزگشایی نیست (کلیدهای امنیتی سایت تغییر کرده‌اند). کلید را دوباره در زیر وارد کنید."
+
+#: src/Admin/SettingsPage.php:430
+msgid "Varizet is almost ready. Connect the store to your Varizet account to activate card-to-card payment at checkout; it takes less than a minute."
+msgstr "واریزت تقریباً آماده است. برای فعال شدن پرداخت کارت‌به‌کارت در صفحه تسویه حساب، فروشگاه را به حساب واریزت متصل کنید؛ کمتر از یک دقیقه طول می‌کشد."
+
+#: src/Admin/SettingsPage.php:436
+msgid "Set up in under a minute"
+msgstr "راه‌اندازی در کمتر از یک دقیقه"
+
+#. translators: %s: site name.
+#: src/Admin/SettingsPage.php:440
+#, php-format
+msgid "Connect %s to Varizet"
+msgstr "%s را به واریزت وصل کنید"
+
+#: src/Admin/SettingsPage.php:443
+msgid "After you approve in the Varizet panel, the plugin configures the API key and the signed webhook by itself, and \"card-to-card with automatic confirmation\" appears at checkout."
+msgstr "پس از تایید در پنل واریزت، افزونه کلید API و وب‌هوک امضاشده را خودش پیکربندی می‌کند و روش «کارت‌به‌کارت با تایید خودکار» در صفحه پرداخت فعال می‌شود."
+
+#: src/Admin/SettingsPage.php:450
+msgid "No account? Sign up free"
+msgstr "حساب ندارید؟ ثبت‌نام رایگان"
+
+#: src/Admin/SettingsPage.php:453
+msgid "One-click connect is coming soon. For now, connect with an API key below."
+msgstr "اتصال یک‌کلیکی به‌زودی فعال می‌شود. فعلاً با کلید API در زیر متصل شوید."
+
+#: src/Admin/SettingsPage.php:456
+msgid "Or connect manually with an API key"
+msgstr "یا اتصال دستی با کلید API"
+
+#: src/Admin/SettingsPage.php:460
+msgid "Sign in and approve in the Varizet panel"
+msgstr "ورود و تایید در پنل واریزت"
+
+#: src/Admin/SettingsPage.php:460
+msgid "No Varizet password is stored in WordPress."
+msgstr "هیچ رمزی از واریزت در وردپرس ذخیره نمی‌شود."
+
+#: src/Admin/SettingsPage.php:461
+msgid "Key and webhook are created"
+msgstr "ساخت خودکار کلید و وب‌هوک"
+
+#: src/Admin/SettingsPage.php:461
+msgid "A key for this site with limited scopes and a webhook signed with HMAC-SHA256."
+msgstr "کلید اختصاصی این سایت با دسترسی محدود و وب‌هوک با امضای HMAC-SHA256."
+
+#: src/Admin/SettingsPage.php:462
+msgid "The gateway goes live at checkout"
+msgstr "فعال شدن درگاه در صفحه پرداخت"
+
+#: src/Admin/SettingsPage.php:462
+msgid "Customers can pay card-to-card right away and orders are confirmed automatically."
+msgstr "مشتریان از همین لحظه می‌توانند کارت‌به‌کارت پرداخت کنند و سفارش خودکار تایید می‌شود."
+
+#: src/Admin/SettingsPage.php:467
+#: src/Health/HealthChecks.php:219
+msgid "WordPress and WooCommerce"
+msgstr "وردپرس و ووکامرس"
+
+#: src/Admin/SettingsPage.php:469
+msgid "Instant webhook"
+msgstr "وب‌هوک آنی"
+
+#: src/Admin/SettingsPage.php:471
+msgid "Backup sync"
+msgstr "همگام‌سازی پشتیبان"
+
+#: src/Admin/SettingsPage.php:475
+msgid "Payment events arrive within the same second by webhook. If your server is briefly unreachable, the backup sync checks open orders by their id every 2 minutes; no order is left behind."
+msgstr "رویداد پرداخت در همان ثانیه با وب‌هوک می‌رسد. اگر سرور سایت لحظه‌ای در دسترس نباشد، همگام‌سازی پشتیبان هر ۲ دقیقه سفارش‌های باز را با شناسه سفارش بررسی می‌کند؛ هیچ سفارشی جا نمی‌ماند."
+
+#: src/Admin/SettingsPage.php:501
+msgid "Create it in the Varizet panel under Developers → API keys with the orders:read and orders:write scopes. vz_live_ keys connect Live and vz_test_ keys connect Test."
+msgstr "آن را در پنل واریزت، بخش توسعه‌دهندگان ← کلیدهای API با دسترسی‌های orders:read و orders:write بسازید. کلید vz_live_ محیط Live و کلید vz_test_ محیط Test را متصل می‌کند."
+
+#: src/Admin/SettingsPage.php:505
+msgid "Webhook secret"
+msgstr "secret وب‌هوک"
+
+#: src/Admin/SettingsPage.php:508
+msgid "In the Varizet panel, add a webhook endpoint with this URL and the order events, then paste the secret shown once:"
+msgstr "در پنل واریزت یک endpoint وب‌هوک با این آدرس و رویدادهای سفارش بسازید و secret را که فقط یک‌بار نمایش داده می‌شود اینجا وارد کنید:"
+
+#: src/Admin/SettingsPage.php:514
+msgid "Only update the secret of"
+msgstr "فقط به‌روزرسانی secret محیط"
+
+#: src/Admin/SettingsPage.php:517
+msgid "— (saving a new key)"
+msgstr "— (ذخیره کلید جدید)"
+
+#: src/Admin/SettingsPage.php:520
+#: src/Gateway/Gateway.php:81
+msgid "Live"
+msgstr "Live"
+
+#: src/Admin/SettingsPage.php:520
+#: src/Order/ListTable.php:125
+#: src/Order/MetaBox.php:88
+msgid "Test"
+msgstr "تست"
+
+#: src/Admin/SettingsPage.php:524
+msgid "Leave the API key empty and pick an environment to replace only its webhook secret."
+msgstr "کلید API را خالی بگذارید و محیط را انتخاب کنید تا فقط secret وب‌هوک آن جایگزین شود."
+
+#: src/Admin/SettingsPage.php:529
+msgid "Verify and save"
+msgstr "بررسی و ذخیره"
+
+#: src/Admin/SettingsPage.php:579
+msgid "Enabled"
+msgstr "فعال"
+
+#. translators: %s: link to the Varizet panel.
+#: src/Admin/SettingsPage.php:590
+#, php-format
+msgid "Destination cards, matching rules and notifications are managed in the %s."
+msgstr "کارت‌های مقصد، قوانین تطبیق و اعلان‌ها از %s مدیریت می‌شوند."
+
+#: src/Admin/SettingsPage.php:591
+msgid "Varizet panel"
+msgstr "پنل واریزت"
+
+#: src/Admin/SettingsPage.php:603
+msgid "Connection health"
+msgstr "سلامت اتصال"
+
+#: src/Admin/SettingsPage.php:604
+msgid "Healthy"
+msgstr "سالم"
+
+#: src/Admin/SettingsPage.php:604
+msgid "Needs attention"
+msgstr "نیاز به بررسی"
+
+#: src/Admin/SettingsPage.php:606
+msgid "Ready to receive payments"
+msgstr "همه‌چیز آماده دریافت پرداخت است"
+
+#: src/Admin/SettingsPage.php:606
+msgid "Not ready to receive payments"
+msgstr "آماده دریافت پرداخت نیست"
+
+#: src/Admin/SettingsPage.php:608
+msgid "API response"
+msgstr "پاسخ API"
+
+#. translators: %d: milliseconds.
+#: src/Admin/SettingsPage.php:608
+#, php-format
+msgid "%d ms"
+msgstr "%d میلی‌ثانیه"
+
+#. translators: 1: ok deliveries, 2: total deliveries.
+#: src/Admin/SettingsPage.php:609
+#, php-format
+msgid "%1$d of %2$d in 24 h"
+msgstr "%1$d از %2$d در ۲۴ ساعت"
+
+#. translators: 1: ok deliveries, 2: total deliveries.
+#: src/Admin/SettingsPage.php:610
+msgid "Sync"
+msgstr "همگام‌سازی"
+
+#: src/Admin/SettingsPage.php:611
+msgid "Key"
+msgstr "کلید"
+
+#: src/Admin/SettingsPage.php:614
+msgid "Full system status and logs"
+msgstr "وضعیت کامل سیستم و لاگ‌ها"
+
+#: src/Admin/SettingsPage.php:618
+msgid "Preview at checkout"
+msgstr "پیش‌نمایش در صفحه پرداخت"
+
+#: src/Admin/SettingsPage.php:648
+msgid "Connection and sync"
+msgstr "اتصال و همگام‌سازی"
+
+#: src/Admin/SettingsPage.php:649
+msgid "Server environment"
+msgstr "محیط سرور"
+
+#. translators: 1: passed checks, 2: checks with suggestions.
+#: src/Admin/SettingsPage.php:672
+#, php-format
+msgid "%1$d checks passed, %2$d need attention"
+msgstr "%1$d بررسی موفق، %2$d نیاز به توجه"
+
+#. translators: 1: storage, 2: time.
+#: src/Admin/SettingsPage.php:680
+#, php-format
+msgid "Orders stored as %1$s; checked %2$s"
+msgstr "ذخیره سفارش‌ها: %1$s؛ بررسی در %2$s"
+
+#: src/Admin/SettingsPage.php:682
+msgid "Run checks again"
+msgstr "اجرای دوباره بررسی‌ها"
+
+#: src/Admin/SettingsPage.php:683
+msgid "Copy system report"
+msgstr "کپی گزارش سیستم"
+
+#: src/Admin/SettingsPage.php:687
+#: src/Health/HealthChecks.php:54
+msgid "API connection"
+msgstr "اتصال API"
+
+#: src/Admin/SettingsPage.php:687
+msgid "ms"
+msgstr "میلی‌ثانیه"
+
+#: src/Admin/SettingsPage.php:688
+msgid "Webhook deliveries, 24 h"
+msgstr "تحویل وب‌هوک، ۲۴ ساعت"
+
+#. translators: %d: total deliveries.
+#: src/Admin/SettingsPage.php:688
+#, php-format
+msgid "of %d"
+msgstr "از %d"
+
+#. translators: %d: total deliveries.
+#: src/Admin/SettingsPage.php:689
+msgid "Action Scheduler queue"
+msgstr "صف Action Scheduler"
+
+#. translators: %d: total deliveries.
+#: src/Admin/SettingsPage.php:689
+msgid "failed in 7 days"
+msgstr "ناموفق در ۷ روز"
+
+#. translators: %d: total deliveries.
+#: src/Admin/SettingsPage.php:689
+msgid "Backup sync every 2 minutes; not run yet"
+msgstr "همگام‌سازی پشتیبان هر ۲ دقیقه؛ هنوز اجرا نشده"
+
+#. translators: %s: time since.
+#: src/Admin/SettingsPage.php:689
+#, php-format
+msgid "Backup sync every 2 minutes; last run %s"
+msgstr "همگام‌سازی پشتیبان هر ۲ دقیقه؛ آخرین اجرا %s"
+
+#. translators: %s: time since.
+#: src/Admin/SettingsPage.php:690
+#: src/Health/HealthChecks.php:183
+msgid "Plugin version"
+msgstr "نسخه افزونه"
+
+#: src/Admin/SettingsPage.php:710
+msgid "Sync now"
+msgstr "همگام‌سازی"
+
+#: src/Admin/SettingsPage.php:712
+msgid "Delivery log"
+msgstr "لاگ تحویل"
+
+#: src/Admin/SettingsPage.php:743
+msgid "Error"
+msgstr "خطا"
+
+#: src/Admin/SettingsPage.php:744
+msgid "Warning"
+msgstr "هشدار"
+
+#: src/Admin/SettingsPage.php:745
+msgid "Info"
+msgstr "اطلاعات"
+
+#: src/Admin/SettingsPage.php:746
+msgid "Debug"
+msgstr "دیباگ"
+
+#: src/Admin/SettingsPage.php:751
+msgid "Logs"
+msgstr "لاگ‌ها"
+
+#. translators: 1: number of entries, 2: link to WooCommerce logs.
+#: src/Admin/SettingsPage.php:756
+#, php-format
+msgid "Last %1$s entries, source varizet. Full files: %2$s"
+msgstr "%1$s مورد اخیر، منبع varizet. فایل کامل: %2$s"
+
+#: src/Admin/SettingsPage.php:758
+msgid "WooCommerce → Status → Logs"
+msgstr "ووکامرس ← وضعیت ← گزارش‌ها"
+
+#: src/Admin/SettingsPage.php:763
+msgid "Search the log"
+msgstr "جستجو در لاگ"
+
+#: src/Admin/SettingsPage.php:764
+msgid "Download"
+msgstr "دانلود"
+
+#: src/Admin/SettingsPage.php:765
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: src/Admin/SettingsPage.php:767
+msgid "Filter by level"
+msgstr "فیلتر بر اساس سطح"
+
+#: src/Admin/SettingsPage.php:768
+msgid "All"
+msgstr "همه"
+
+#: src/Admin/SettingsPage.php:774
+msgid "No log entries yet."
+msgstr "هنوز لاگی ثبت نشده است."
+
+#: src/Admin/SettingsPage.php:777
+msgid "Time"
+msgstr "زمان"
+
+#: src/Admin/SettingsPage.php:777
+msgid "Level"
+msgstr "سطح"
+
+#: src/Admin/SettingsPage.php:777
+msgid "Source"
+msgstr "منبع"
+
+#: src/Admin/SettingsPage.php:777
+msgid "Message"
+msgstr "پیام"
+
+#. translators: %d: latency in ms.
+#: src/Admin/SettingsPage.php:835
+#, php-format
+msgid "Varizet answered in %d ms and accepted the API key."
+msgstr "واریزت در %d میلی‌ثانیه پاسخ داد و کلید API را پذیرفت."
+
+#. translators: %s: error code.
+#: src/Admin/SettingsPage.php:838
+#, php-format
+msgid "Varizet is reachable but rejected the API key (%s)."
+msgstr "واریزت در دسترس است اما کلید API را نپذیرفت (%s)."
+
+#. translators: %s: error.
+#: src/Admin/SettingsPage.php:841
+#, php-format
+msgid "Varizet is not reachable: %s"
+msgstr "واریزت در دسترس نیست: %s"
+
+#. translators: 1: checked orders, 2: changed orders, 3: errors.
+#: src/Admin/SettingsPage.php:862
+#, php-format
+msgid "%1$d open orders checked; %2$d updated; %3$d errors."
+msgstr "%1$d سفارش باز بررسی شد؛ %2$d به‌روز شد؛ %3$d خطا."
+
+#: src/Admin/SettingsPage.php:897
+msgid "Log cleared."
+msgstr "لاگ پاک شد."
+
+#. translators: %s: version.
+#: src/Admin/SettingsPage.php:931
+#, php-format
+msgid "WordPress %s"
+msgstr "وردپرس %s"
+
+#. translators: %s: version.
+#: src/Admin/SettingsPage.php:933
+#, php-format
+msgid "WooCommerce %s"
+msgstr "ووکامرس %s"
+
+#: src/Admin/SettingsPage.php:936
+#: src/Health/HealthChecks.php:240
+msgid "Checkout block"
+msgstr "تسویه حساب بلوکی"
+
+#. translators: %s: currency code.
+#: src/Admin/SettingsPage.php:938
+#, php-format
+msgid "Currency %s"
+msgstr "ارز %s"
+
+#. translators: %s: human time difference.
+#: src/Admin/SettingsPage.php:958
+#: src/Health/HealthChecks.php:147
+#, php-format
+msgid "%s ago"
+msgstr "%s پیش"
+
+#: src/Api/Client.php:213
+msgid "Varizet is not connected."
+msgstr "واریزت متصل نیست."
+
+#. translators: %s: transport error message.
+#: src/Api/Client.php:282
+#: src/Connect/ConnectController.php:246
+#, php-format
+msgid "Could not reach Varizet: %s"
+msgstr "اتصال به واریزت ممکن نشد: %s"
+
+#: src/Api/Client.php:301
+msgid "Varizet returned an unreadable response."
+msgstr "پاسخ واریزت قابل خواندن نبود."
+
+#: src/Connect/ConnectController.php:59
+msgid "Webhook secret saved."
+msgstr "secret وب‌هوک ذخیره شد."
+
+#: src/Connect/ConnectController.php:65
+msgid "The API key looks wrong. It starts with vz_live_ or vz_test_ and is shown once when you create it in the Varizet panel."
+msgstr "کلید API درست به نظر نمی‌رسد. با vz_live_ یا vz_test_ شروع می‌شود و هنگام ساخت در پنل واریزت فقط یک‌بار نمایش داده می‌شود."
+
+#: src/Connect/ConnectController.php:80
+msgid "Connected. Now register the webhook URL below in the Varizet panel and save its secret here for instant updates."
+msgstr "اتصال برقرار شد. حالا آدرس وب‌هوک زیر را در پنل واریزت ثبت و secret آن را اینجا ذخیره کنید تا وضعیت پرداخت‌ها آنی برسد."
+
+#: src/Connect/ConnectController.php:81
+#: src/Connect/ConnectController.php:198
+msgid "Connected. Card-to-card payment with automatic confirmation is active at checkout."
+msgstr "اتصال برقرار شد. پرداخت کارت‌به‌کارت با تایید خودکار در صفحه تسویه حساب فعال است."
+
+#: src/Connect/ConnectController.php:98
+msgid "Disconnected. The keys were removed from this site; revoke the key in the Varizet panel too if it is no longer needed."
+msgstr "اتصال قطع شد. کلیدها از این سایت حذف شدند؛ اگر کلید دیگر لازم نیست، آن را در پنل واریزت هم باطل کنید."
+
+#: src/Connect/ConnectController.php:110
+msgid "One-click connect is not available yet. Enter your API key manually."
+msgstr "اتصال یک‌کلیکی هنوز در دسترس نیست. کلید API را دستی وارد کنید."
+
+#: src/Connect/ConnectController.php:149
+msgid "You are not allowed to connect this store."
+msgstr "اجازه اتصال این فروشگاه را ندارید."
+
+#: src/Connect/ConnectController.php:159
+msgid "The connection was cancelled in Varizet."
+msgstr "اتصال در واریزت لغو شد."
+
+#: src/Connect/ConnectController.php:164
+msgid "The connection request expired or was not started from this page. Please try again."
+msgstr "درخواست اتصال منقضی شده یا از این صفحه شروع نشده است. دوباره تلاش کنید."
+
+#: src/Connect/ConnectController.php:172
+msgid "Varizet did not accept the connection code. Please try again."
+msgstr "واریزت کد اتصال را نپذیرفت. دوباره تلاش کنید."
+
+#: src/Connect/ConnectController.php:179
+msgid "Varizet returned an incomplete connection. Please try again."
+msgstr "پاسخ اتصال واریزت ناقص بود. دوباره تلاش کنید."
+
+#: src/Connect/ConnectController.php:239
+msgid "Varizet rejected this API key (invalid or revoked)."
+msgstr "واریزت این کلید API را نپذیرفت (نامعتبر یا باطل‌شده)."
+
+#: src/Connect/ConnectController.php:242
+msgid "This API key lacks the orders:read / orders:write scopes or this server's IP is not allowed."
+msgstr "این کلید API دسترسی orders:read / orders:write ندارد یا IP این سرور مجاز نیست."
+
+#. translators: 1: HTTP status, 2: error code.
+#: src/Connect/ConnectController.php:249
+#, php-format
+msgid "Varizet answered %1$d (%2$s)."
+msgstr "واریزت با %1$d پاسخ داد (%2$s)."
+
+#: src/Gateway/BlocksSupport.php:90
+#: src/Gateway/Gateway.php:274
+msgid "Copy the amount and card"
+msgstr "کپی مبلغ و کارت"
+
+#: src/Gateway/BlocksSupport.php:91
+#: src/Gateway/Gateway.php:275
+msgid "Transfer from your own bank app"
+msgstr "واریز از اپ بانک خودتان"
+
+#: src/Gateway/BlocksSupport.php:92
+#: src/Gateway/Gateway.php:276
+msgid "Automatic confirmation in seconds"
+msgstr "تایید خودکار در چند ثانیه"
+
+#: src/Gateway/BlocksSupport.php:94
+#: src/Gateway/Gateway.php:278
+msgid "No redirect to a payment gateway."
+msgstr "بدون انتقال به درگاه."
+
+#: src/Gateway/BlocksSupport.php:95
+msgid "Pay from your own bank app; automatic confirmation, no receipt upload."
+msgstr "از اپ بانک خودتان پرداخت می‌کنید؛ تایید خودکار و بدون ارسال رسید."
+
+#: src/Gateway/BlocksSupport.php:96
+#: src/Gateway/Gateway.php:271
+msgid "Test mode: no real money is transferred."
+msgstr "حالت تست: هیچ پول واقعی منتقل نمی‌شود."
+
+#: src/Gateway/BlocksSupport.php:98
+#: src/Gateway/Gateway.php:281
+msgid "Last 4 digits of your card"
+msgstr "۴ رقم آخر کارت شما"
+
+#: src/Gateway/BlocksSupport.php:99
+#: src/Gateway/Gateway.php:282
+msgid "Last 4 digits of your card (optional, for faster confirmation)"
+msgstr "۴ رقم آخر کارت شما (اختیاری، برای تایید سریع‌تر)"
+
+#: src/Gateway/BlocksSupport.php:100
+#: src/Gateway/Gateway.php:510
+msgid "Please enter the last 4 digits of the card you will pay from."
+msgstr "لطفاً ۴ رقم آخر کارتی را که از آن پرداخت می‌کنید وارد کنید."
+
+#: src/Gateway/BlocksSupport.php:101
+#: src/Gateway/Gateway.php:515
+msgid "The last 4 digits of the card must be exactly 4 digits."
+msgstr "۴ رقم آخر کارت باید دقیقاً ۴ رقم باشد."
+
+#: src/Gateway/Gateway.php:34
+msgid "Card-to-card with automatic confirmation — Varizet"
+msgstr "کارت‌به‌کارت با تایید خودکار — واریزت"
+
+#: src/Gateway/Gateway.php:35
+msgid "Customers transfer the exact unique amount from their own bank app; Varizet detects the deposit and confirms the order automatically. Destination cards, matching rules and notifications are managed in the Varizet panel."
+msgstr "مشتری مبلغ یکتا را دقیقاً از اپ بانک خودش واریز می‌کند؛ واریزت واریز را تشخیص می‌دهد و سفارش را خودکار تایید می‌کند. کارت‌های مقصد، قوانین تطبیق و اعلان‌ها از پنل واریزت مدیریت می‌شوند."
+
+#: src/Gateway/Gateway.php:55
+msgid "General"
+msgstr "عمومی"
+
+#: src/Gateway/Gateway.php:59
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#: src/Gateway/Gateway.php:61
+msgid "Enable Varizet card-to-card payments"
+msgstr "فعال‌سازی پرداخت کارت‌به‌کارت واریزت"
+
+#: src/Gateway/Gateway.php:65
+msgid "Title at checkout"
+msgstr "عنوان در صفحه پرداخت"
+
+#: src/Gateway/Gateway.php:67
+msgid "What customers see in the list of payment methods."
+msgstr "همان چیزی که مشتری در فهرست روش‌های پرداخت می‌بیند."
+
+#: src/Edd/EddGateway.php:59
+#: src/Gateway/Gateway.php:68
+msgid "Card-to-card with automatic confirmation"
+msgstr "کارت‌به‌کارت با تایید خودکار"
+
+#: src/Gateway/Gateway.php:72
+msgid "Description"
+msgstr "توضیح"
+
+#: src/Gateway/Gateway.php:74
+msgid "Shown under the payment method; short and reassuring."
+msgstr "زیر روش پرداخت نمایش داده می‌شود؛ کوتاه و اطمینان‌بخش."
+
+#: src/Gateway/Gateway.php:75
+msgid "Transfer the amount from your own bank app to the store's card; your payment is confirmed automatically within seconds."
+msgstr "مبلغ را از اپ بانک خود به کارت فروشگاه واریز کنید؛ پرداخت شما در چند ثانیه و به‌صورت خودکار تایید می‌شود."
+
+#: src/Gateway/Gateway.php:82
+msgid "Test (Sandbox)"
+msgstr "Test (Sandbox)"
+
+#: src/Gateway/Gateway.php:85
+msgid "Each environment uses its own API key and webhook secret from the connection page."
+msgstr "هر محیط کلید API و secret وب‌هوک خودش را از صفحه اتصال دارد."
+
+#: src/Gateway/Gateway.php:88
+msgid "Amount and payment"
+msgstr "مبلغ و پرداخت"
+
+#: src/Gateway/Gateway.php:92
+msgid "Unique amount mode"
+msgstr "حالت مبلغ یکتا"
+
+#: src/Gateway/Gateway.php:96
+msgid "Increase"
+msgstr "افزایشی"
+
+#: src/Gateway/Gateway.php:97
+msgid "A few rial are added to the order amount."
+msgstr "چند ریال به مبلغ سفارش اضافه می‌شود."
+
+#: src/Gateway/Gateway.php:102
+msgid "Decrease (unique discount)"
+msgstr "کاهشی (تخفیف یکتا)"
+
+#: src/Gateway/Gateway.php:103
+msgid "A few rial are taken off; the customer never pays more."
+msgstr "چند ریال کم می‌شود؛ مشتری هرگز بیشتر نمی‌پردازد."
+
+#: src/Gateway/Gateway.php:109
+msgid "The last digits of the amount identify each order's payment."
+msgstr "چند رقم آخر مبلغ، شناسه پرداخت هر سفارش است."
+
+#: src/Gateway/Gateway.php:112
+msgid "Payment window"
+msgstr "مهلت پرداخت"
+
+#: src/Gateway/Gateway.php:116
+msgid "15 minutes"
+msgstr "۱۵ دقیقه"
+
+#: src/Gateway/Gateway.php:117
+msgid "30 minutes"
+msgstr "۳۰ دقیقه"
+
+#: src/Gateway/Gateway.php:118
+msgid "1 hour"
+msgstr "۱ ساعت"
+
+#: src/Gateway/Gateway.php:119
+msgid "2 hours"
+msgstr "۲ ساعت"
+
+#: src/Gateway/Gateway.php:120
+msgid "24 hours"
+msgstr "۲۴ ساعت"
+
+#: src/Gateway/Gateway.php:123
+msgid "After the window, a grace period still accepts late transfers so the order is confirmed instead of rejected."
+msgstr "پس از مهلت، مهلت تکمیلی برای واریزهای دیرهنگام فعال است و سفارش به‌جای رد شدن تایید می‌شود."
+
+#: src/Gateway/Gateway.php:126
+msgid "Last 4 digits of the payer's card"
+msgstr "۴ رقم آخر کارت پرداخت‌کننده"
+
+#: src/Gateway/Gateway.php:129
+msgid "Off"
+msgstr "خاموش"
+
+#: src/Gateway/Gateway.php:130
+msgid "Optional"
+msgstr "اختیاری"
+
+#: src/Gateway/Gateway.php:131
+msgid "Required"
+msgstr "الزامی"
+
+#: src/Gateway/Gateway.php:134
+msgid "Only the last 4 digits, for more precise matching; the full card number is never asked."
+msgstr "فقط ۴ رقم آخر، برای تطبیق دقیق‌تر؛ شماره کامل کارت هرگز از مشتری پرسیده نمی‌شود."
+
+#: src/Gateway/Gateway.php:137
+msgid "Minimum cart total"
+msgstr "حداقل مبلغ سبد"
+
+#: src/Gateway/Gateway.php:139
+msgid "In the store currency. Leave empty for no limit (Varizet's own minimum is 10,000 rial)."
+msgstr "به ارز فروشگاه. برای بدون محدودیت خالی بگذارید (حداقل خود واریزت ۱۰٬۰۰۰ ریال است)."
+
+#: src/Gateway/Gateway.php:144
+msgid "Maximum cart total"
+msgstr "حداکثر مبلغ سبد"
+
+#: src/Gateway/Gateway.php:146
+msgid "In the store currency. Leave empty for no limit (mind your cards' daily transfer caps)."
+msgstr "به ارز فروشگاه. برای بدون محدودیت خالی بگذارید (به سقف انتقال روزانه کارت‌ها توجه کنید)."
+
+#: src/Gateway/Gateway.php:150
+msgid "Order and stock"
+msgstr "سفارش و موجودی"
+
+#: src/Gateway/Gateway.php:154
+msgid "Order status after payment"
+msgstr "وضعیت سفارش پس از پرداخت"
+
+#: src/Gateway/Gateway.php:158
+msgid "Processing"
+msgstr "در حال انجام"
+
+#: src/Gateway/Gateway.php:159
+msgid "Completed"
+msgstr "تکمیل‌شده"
+
+#: src/Gateway/Gateway.php:160
+msgid "WooCommerce default (completed for virtual downloadable orders)"
+msgstr "پیش‌فرض ووکامرس (تکمیل‌شده برای سفارش‌های مجازی و دانلودی)"
+
+#: src/Gateway/Gateway.php:163
+msgid "\"Completed\" is recommended for virtual and downloadable products."
+msgstr "برای محصولات مجازی و دانلودی «تکمیل‌شده» پیشنهاد می‌شود."
+
+#: src/Gateway/Gateway.php:166
+msgid "Restore stock after expiry"
+msgstr "بازگرداندن موجودی پس از انقضا"
+
+#: src/Gateway/Gateway.php:168
+msgid "Cancel the order and return items to stock when the grace period ends"
+msgstr "لغو سفارش و برگشت کالا به انبار پس از پایان مهلت تکمیلی"
+
+#: src/Gateway/Gateway.php:172
+msgid "Order id prefix"
+msgstr "پیشوند شناسه سفارش"
+
+#: src/Gateway/Gateway.php:174
+msgid "Optional prefix for the order id shown in the Varizet panel, e.g. KN-. Useful when several sites share one Varizet store."
+msgstr "پیشوند اختیاری شناسه سفارش در پنل واریزت، مثلاً KN-. وقتی چند سایت یک فروشگاه واریزت مشترک دارند مفید است."
+
+#: src/Gateway/Gateway.php:183
+msgid "Notifications and display"
+msgstr "اطلاع‌رسانی و نمایش"
+
+#: src/Gateway/Gateway.php:187
+msgid "Send the payment link by SMS"
+msgstr "ارسال لینک پرداخت با پیامک"
+
+#: src/Gateway/Gateway.php:189
+msgid "Text the pay.varizet.ir link to the customer's mobile"
+msgstr "ارسال لینک pay.varizet.ir به موبایل مشتری"
+
+#: src/Gateway/Gateway.php:191
+msgid "Sent by Varizet's SMS service; if the customer closes the page, they still have the link."
+msgstr "با سرویس پیامک واریزت؛ اگر مشتری صفحه را ببندد، لینک را دارد."
+
+#: src/Gateway/Gateway.php:194
+msgid "Display mode"
+msgstr "حالت نمایش"
+
+#: src/Gateway/Gateway.php:198
+msgid "Redirect to pay.varizet.ir"
+msgstr "ریدایرکت به pay.varizet.ir"
+
+#: src/Gateway/Gateway.php:199
+msgid "Varizet's full payment page with your store name and logo; the most features."
+msgstr "صفحه پرداخت کامل واریزت با نام و لوگوی فروشگاه شما؛ بیشترین امکانات."
+
+#: src/Gateway/Gateway.php:202
+msgid "On-site payment"
+msgstr "پرداخت درون‌صفحه‌ای"
+
+#: src/Gateway/Gateway.php:203
+msgid "A payment widget on the WooCommerce thank-you page; the customer never leaves your site."
+msgstr "ویجت پرداخت روی صفحه تشکر ووکامرس؛ مشتری از سایت خارج نمی‌شود."
+
+#: src/Gateway/Gateway.php:209
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/Gateway/Gateway.php:213
+msgid "Debug log"
+msgstr "لاگ دیباگ"
+
+#: src/Gateway/Gateway.php:215
+msgid "Log request and webhook details"
+msgstr "ثبت جزئیات درخواست‌ها و وب‌هوک‌ها"
+
+#: src/Gateway/Gateway.php:217
+msgid "Visible under Varizet → System status. Enable only while troubleshooting; card data is never logged."
+msgstr "در «واریزت ← وضعیت سیستم» قابل مشاهده است. فقط هنگام عیب‌یابی فعال کنید؛ اطلاعات کارت هرگز لاگ نمی‌شود."
+
+#: src/Gateway/Gateway.php:220
+msgid "Remove data on uninstall"
+msgstr "حذف داده‌ها هنگام حذف افزونه"
+
+#: src/Gateway/Gateway.php:222
+msgid "Delete settings and Varizet order metadata when the plugin is deleted"
+msgstr "حذف تنظیمات و متادیتای واریزت سفارش‌ها هنگام حذف افزونه"
+
+#: src/Gateway/Gateway.php:224
+msgid "Keys are always removed. Order notes are kept."
+msgstr "کلیدها همیشه حذف می‌شوند. یادداشت‌های سفارش باقی می‌مانند."
+
+#: src/Gateway/Gateway.php:278
+msgid "The exact amount (in rial) and the card number are shown after you place the order. No receipt upload is needed."
+msgstr "مبلغ دقیق (به ریال) و شماره کارت پس از ثبت سفارش نمایش داده می‌شود. نیازی به ارسال رسید نیست."
+
+#: src/Gateway/Gateway.php:286
+msgid "required"
+msgstr "الزامی"
+
+#. translators: 1: error code, 2: API request id.
+#: src/Gateway/Gateway.php:329
+#, php-format
+msgid "Varizet: the payment request could not be created (%1$s, request %2$s)."
+msgstr "واریزت: درخواست پرداخت ساخته نشد (%1$s، درخواست %2$s)."
+
+#. translators: 1: unique amount in rial, 2: Varizet order code.
+#: src/Gateway/Gateway.php:343
+#, php-format
+msgid "Varizet: awaiting a card-to-card transfer of %1$s rial (order %2$s)."
+msgstr "واریزت: در انتظار واریز کارت‌به‌کارت %1$s ریال (سفارش %2$s)."
+
+#: src/Gateway/Gateway.php:528
+msgid "Card-to-card payment is busy right now. Please try again in a few minutes or choose another payment method."
+msgstr "پرداخت کارت‌به‌کارت در این لحظه شلوغ است. چند دقیقه دیگر دوباره تلاش کنید یا روش پرداخت دیگری انتخاب کنید."
+
+#: src/Edd/EddGateway.php:137
+#: src/Gateway/Gateway.php:530
+#: src/Gateway/PaymentStarter.php:50
+msgid "The order total is below the minimum for card-to-card payment."
+msgstr "مبلغ سفارش کمتر از حداقل پرداخت کارت‌به‌کارت است."
+
+#: src/Gateway/Gateway.php:535
+msgid "This payment method is not available right now. Please choose another payment method."
+msgstr "این روش پرداخت در حال حاضر در دسترس نیست. لطفاً روش پرداخت دیگری انتخاب کنید."
+
+#: src/Gateway/Gateway.php:537
+msgid "We could not start the card-to-card payment. Please try again; if it keeps failing, choose another payment method."
+msgstr "شروع پرداخت کارت‌به‌کارت ممکن نشد. دوباره تلاش کنید؛ اگر باز هم نشد، روش پرداخت دیگری انتخاب کنید."
+
+#: src/Edd/EddGateway.php:83
+#: src/Gateway/PaymentStarter.php:45
+msgid "This payment method is not available right now."
+msgstr "این روش پرداخت در حال حاضر در دسترس نیست."
+
+#: src/Edd/EddGateway.php:162
+#: src/Gateway/PaymentStarter.php:89
+msgid "Varizet returned an incomplete order."
+msgstr "سفارش برگشتی از واریزت ناقص بود."
+
+#. translators: 1: Varizet order code, 2: attempt number.
+#: src/Edd/EddGateway.php:168
+#: src/Gateway/PaymentStarter.php:102
+#, php-format
+msgid "Payment request %1$s created and unique amount reserved (attempt %2$d)"
+msgstr "درخواست پرداخت %1$s ساخته و مبلغ یکتا رزرو شد (تلاش %2$d)"
+
+#. translators: 1: site name, 2: order number.
+#: src/Edd/EddGateway.php:192
+#: src/Gateway/PaymentStarter.php:180
+#, php-format
+msgid "%1$s order #%2$s"
+msgstr "سفارش %1$s شماره %2$s"
+
+#. translators: 1: API host, 2: latency in milliseconds.
+#: src/Health/HealthChecks.php:58
+#, php-format
+msgid "Answered 200 from %1$s in %2$d ms."
+msgstr "پاسخ 200 از %1$s در %2$d میلی‌ثانیه."
+
+#. translators: %s: error message.
+#: src/Health/HealthChecks.php:60
+#, php-format
+msgid "Not reachable: %s"
+msgstr "در دسترس نیست: %s"
+
+#: src/Health/HealthChecks.php:67
+msgid "The stored key cannot be decrypted (the site salts changed). Enter the key again on the connection page."
+msgstr "کلید ذخیره‌شده قابل رمزگشایی نیست (کلیدهای امنیتی سایت تغییر کرده‌اند). کلید را دوباره در صفحه اتصال وارد کنید."
+
+#. translators: %s: environment name (live or test).
+#: src/Health/HealthChecks.php:71
+#, php-format
+msgid "No API key for the %s environment."
+msgstr "برای محیط %s کلید API وجود ندارد."
+
+#. translators: %s: API error code.
+#: src/Health/HealthChecks.php:75
+#, php-format
+msgid "The API key was rejected (%s)."
+msgstr "کلید API رد شد (%s)."
+
+#. translators: 1: masked key, 2: scopes.
+#: src/Health/HealthChecks.php:80
+#, php-format
+msgid "%1$s, scopes %2$s"
+msgstr "%1$s، دسترسی %2$s"
+
+#: src/Health/HealthChecks.php:96
+msgid "No webhook secret: payments are synced only by the 2-minute fallback. Register the webhook URL in the Varizet panel and save its secret here."
+msgstr "secret وب‌هوک تنظیم نشده: پرداخت‌ها فقط با همگام‌سازی پشتیبان ۲ دقیقه‌ای می‌رسند. آدرس وب‌هوک را در پنل واریزت ثبت و secret آن را اینجا ذخیره کنید."
+
+#. translators: %d: number of failed deliveries.
+#: src/Health/HealthChecks.php:100
+#, php-format
+msgid "%d failed deliveries in the last 24 hours and none succeeded."
+msgstr "%d تحویل ناموفق در ۲۴ ساعت اخیر و هیچ تحویل موفق."
+
+#: src/Health/HealthChecks.php:103
+msgid "Configured; no webhook received yet. It appears here after the first order event."
+msgstr "تنظیم شده؛ هنوز وب‌هوکی نرسیده است. پس از اولین رویداد سفارش اینجا دیده می‌شود."
+
+#. translators: 1: successful deliveries, 2: total deliveries, 3: time since the last delivery.
+#: src/Health/HealthChecks.php:107
+#, php-format
+msgid "%1$d of %2$d deliveries succeeded in the last 24 hours; last one %3$s ago."
+msgstr "%1$d از %2$d تحویل در ۲۴ ساعت اخیر موفق بود؛ آخرین مورد %3$s پیش."
+
+#: src/Health/HealthChecks.php:112
+msgid "Webhook delivery"
+msgstr "تحویل وب‌هوک"
+
+#: src/Health/HealthChecks.php:121
+msgid "Webhook signature"
+msgstr "امضای وب‌هوک"
+
+#: src/Health/HealthChecks.php:124
+msgid "HMAC-SHA256 with a 300-second window; verified on every delivery."
+msgstr "HMAC-SHA256 با پنجره ۳۰۰ ثانیه؛ در هر تحویل بررسی می‌شود."
+
+#. translators: %d: clock difference in seconds.
+#: src/Health/HealthChecks.php:126
+#, php-format
+msgid "HMAC-SHA256 valid; server clock differs from Varizet by %d seconds (limit 300)."
+msgstr "HMAC-SHA256 معتبر؛ اختلاف ساعت سرور با واریزت %d ثانیه (حد مجاز ۳۰۰)."
+
+#: src/Health/HealthChecks.php:137
+msgid "Action Scheduler"
+msgstr "Action Scheduler"
+
+#: src/Health/HealthChecks.php:140
+msgid "The 2-minute sync is not scheduled. Deactivate and activate the plugin, or check WP-Cron."
+msgstr "همگام‌سازی ۲ دقیقه‌ای زمان‌بندی نشده است. افزونه را غیرفعال و دوباره فعال کنید یا WP-Cron را بررسی کنید."
+
+#. translators: 1: failed actions in 7 days, 2: time since the last run.
+#: src/Health/HealthChecks.php:143
+#, php-format
+msgid "Scheduled every 2 minutes; %1$d failed actions in 7 days; last run %2$s."
+msgstr "زمان‌بندی‌شده هر ۲ دقیقه؛ %1$d کار ناموفق در ۷ روز؛ آخرین اجرا %2$s."
+
+#: src/Health/HealthChecks.php:157
+msgid "Order sync"
+msgstr "همگام‌سازی سفارش‌ها"
+
+#. translators: 1: open orders, 2: errors in the last run.
+#: src/Health/HealthChecks.php:161
+#, php-format
+msgid "%1$d open orders watched by their Varizet id (no date filters); %2$d errors in the last run."
+msgstr "%1$d سفارش باز با شناسه واریزت (بدون فیلتر تاریخ) پیگیری می‌شود؛ %2$d خطا در آخرین اجرا."
+
+#. translators: %s: plugin version.
+#: src/Health/HealthChecks.php:186
+#, php-format
+msgid "Varizet for WooCommerce %s is installed."
+msgstr "واریزت برای ووکامرس %s نصب است."
+
+#. translators: %s: PHP version.
+#: src/Health/HealthChecks.php:197
+#, php-format
+msgid "%s (minimum 8.1); json, openssl and mbstring are enabled."
+msgstr "%s (حداقل ۸٫۱)؛ افزونه‌های json، openssl و mbstring فعال‌اند."
+
+#. translators: 1: PHP version, 2: missing extensions.
+#: src/Health/HealthChecks.php:199
+#, php-format
+msgid "%1$s; missing extensions: %2$s"
+msgstr "%1$s؛ افزونه‌های ناموجود: %2$s"
+
+#. translators: 1: WordPress version, 2: WooCommerce version.
+#: src/Health/HealthChecks.php:222
+#, php-format
+msgid "WordPress %1$s, WooCommerce %2$s (requires 6.4 and 8.5 or newer)."
+msgstr "وردپرس %1$s، ووکامرس %2$s (حداقل ۶٫۴ و ۸٫۵)."
+
+#: src/Health/HealthChecks.php:229
+msgid "HPOS compatibility"
+msgstr "سازگاری HPOS"
+
+#: src/Health/HealthChecks.php:232
+msgid "Compatible; high-performance order storage is enabled and the Varizet column shows in the new orders table."
+msgstr "سازگار؛ ذخیره‌سازی سفارش با کارایی بالا فعال است و ستون واریزت در جدول جدید سفارش‌ها نمایش داده می‌شود."
+
+#: src/Health/HealthChecks.php:233
+msgid "Compatible; orders are stored as posts (legacy storage). Switching to HPOS is supported."
+msgstr "سازگار؛ سفارش‌ها به‌صورت نوشته ذخیره می‌شوند (ذخیره‌سازی قدیمی). انتقال به HPOS پشتیبانی می‌شود."
+
+#: src/Health/HealthChecks.php:243
+msgid "The payment method is registered for the Checkout block and the classic checkout."
+msgstr "روش پرداخت برای تسویه حساب بلوکی و کلاسیک ثبت شده است."
+
+#: src/Health/HealthChecks.php:244
+msgid "Blocks are unavailable; the classic checkout is used."
+msgstr "بلوک‌ها در دسترس نیستند؛ تسویه حساب کلاسیک استفاده می‌شود."
+
+#: src/Health/HealthChecks.php:251
+msgid "Store currency"
+msgstr "ارز فروشگاه"
+
+#. translators: 1: currency code, 2: rial per unit.
+#: src/Health/HealthChecks.php:255
+#, php-format
+msgid "%1$s; amounts are sent to Varizet as integer rial (× %2$d)."
+msgstr "%1$s؛ مبالغ به‌صورت ریال صحیح به واریزت ارسال می‌شوند (× %2$d)."
+
+#. translators: %s: currency code.
+#: src/Health/HealthChecks.php:257
+#, php-format
+msgid "%s is not supported. Use Iranian rial (IRR) or toman (IRT)."
+msgstr "%s پشتیبانی نمی‌شود. از ریال (IRR) یا تومان (IRT) استفاده کنید."
+
+#: src/Health/HealthChecks.php:264
+msgid "Server clock"
+msgstr "ساعت سرور"
+
+#. translators: 1: UTC time, 2: site timezone.
+#: src/Health/HealthChecks.php:267
+#, php-format
+msgid "UTC %1$s; site timezone %2$s."
+msgstr "UTC %1$s؛ منطقه زمانی سایت %2$s."
+
+#: src/Health/HealthChecks.php:274
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: src/Health/HealthChecks.php:277
+msgid "The webhook URL uses HTTPS."
+msgstr "آدرس وب‌هوک از HTTPS استفاده می‌کند."
+
+#: src/Health/HealthChecks.php:278
+msgid "The site is not served over HTTPS; Varizet accepts only HTTPS webhook URLs in production."
+msgstr "سایت روی HTTPS نیست؛ واریزت در محیط واقعی فقط آدرس وب‌هوک HTTPS را می‌پذیرد."
+
+#: src/Health/SiteHealth.php:38
+msgid "Varizet configuration"
+msgstr "پیکربندی واریزت"
+
+#: src/Health/SiteHealth.php:42
+msgid "Varizet webhooks and sync"
+msgstr "وب‌هوک و همگام‌سازی واریزت"
+
+#: src/Health/SiteHealth.php:46
+msgid "Varizet API"
+msgstr "API واریزت"
+
+#: src/Health/SiteHealth.php:79
+msgid "Varizet is configured"
+msgstr "واریزت پیکربندی شده است"
+
+#: src/Health/SiteHealth.php:79
+msgid "Varizet needs attention"
+msgstr "واریزت نیاز به بررسی دارد"
+
+#: src/Health/SiteHealth.php:89
+msgid "Varizet sync is idle (not connected)"
+msgstr "همگام‌سازی واریزت غیرفعال است (متصل نیست)"
+
+#: src/Health/SiteHealth.php:92
+msgid "Varizet webhooks and background sync work"
+msgstr "وب‌هوک و همگام‌سازی پشتیبان واریزت کار می‌کنند"
+
+#: src/Health/SiteHealth.php:92
+msgid "Varizet payment sync needs attention"
+msgstr "همگام‌سازی پرداخت واریزت نیاز به بررسی دارد"
+
+#: src/Health/SiteHealth.php:103
+msgid "The Varizet API is reachable"
+msgstr "API واریزت در دسترس است"
+
+#: src/Health/SiteHealth.php:103
+msgid "The Varizet API is not reachable"
+msgstr "API واریزت در دسترس نیست"
+
+#: src/Edd/EddGateway.php:295
+#: src/Health/SiteHealth.php:124
+msgid "Webhook URL"
+msgstr "آدرس وب‌هوک"
+
+#: src/Health/SiteHealth.php:156
+msgid "Varizet confirms card-to-card payments with signed webhooks and a 2-minute background sync."
+msgstr "واریزت پرداخت‌های کارت‌به‌کارت را با وب‌هوک امضاشده و همگام‌سازی پشتیبان ۲ دقیقه‌ای تایید می‌کند."
+
+#: src/Health/SiteHealth.php:175
+msgid "Open Varizet system status"
+msgstr "باز کردن وضعیت سیستم واریزت"
+
+#. translators: %s: time left.
+#: src/Order/ListTable.php:119
+#, php-format
+msgid "%s left"
+msgstr "%s مانده"
+
+#: src/Order/ListTable.php:121
+#: src/Order/MetaBox.php:266
+#: src/ThankYou/LiveStatus.php:115
+msgid "Grace period"
+msgstr "مهلت تکمیلی"
+
+#: src/Order/ListTable.php:159
+msgid "All payment methods"
+msgstr "همه روش‌های پرداخت"
+
+#: src/Order/ListTable.php:160
+msgid "Varizet orders only"
+msgstr "فقط سفارش‌های واریزت"
+
+#: src/Order/ListTable.php:161
+msgid "Varizet: awaiting payment"
+msgstr "واریزت: در انتظار واریز"
+
+#: src/Order/ListTable.php:162
+msgid "Varizet: needs review or underpaid"
+msgstr "واریزت: نیاز به بررسی یا کم‌واریز"
+
+#: src/Order/ListTable.php:163
+msgid "Varizet: paid"
+msgstr "واریزت: پرداخت‌شده"
+
+#: src/Order/ListTable.php:164
+msgid "Varizet: expired or cancelled"
+msgstr "واریزت: منقضی یا لغوشده"
+
+#: src/Order/ListTable.php:166
+msgid "Filter by Varizet"
+msgstr "فیلتر واریزت"
+
+#: src/Order/ListTable.php:258
+msgid "Sync with Varizet"
+msgstr "همگام‌سازی با واریزت"
+
+#. translators: 1: synced orders, 2: failed orders.
+#: src/Order/ListTable.php:292
+#, php-format
+msgid "%1$d orders synced with Varizet; %2$d failed."
+msgstr "%1$d سفارش با واریزت همگام شد؛ %2$d ناموفق."
+
+#: src/Order/MetaBox.php:68
+msgid "No Varizet payment request was created for this order yet."
+msgstr "هنوز درخواست پرداختی برای این سفارش در واریزت ساخته نشده است."
+
+#: src/Order/MetaBox.php:97
+msgid "Reopened after WooCommerce cancelled it: check stock before shipping."
+msgstr "پس از لغو ووکامرس بازگشایی شد: پیش از ارسال، موجودی را بررسی کنید."
+
+#. translators: %s: products.
+#: src/Order/MetaBox.php:99
+#, php-format
+msgid "Oversold after reopening: %s"
+msgstr "پس از بازگشایی بیش از موجودی فروخته شده: %s"
+
+#: src/Order/MetaBox.php:106
+msgid "Unique amount"
+msgstr "مبلغ یکتا"
+
+#: src/Order/MetaBox.php:107
+#: templates/thankyou-widget.php:55
+msgid "rial"
+msgstr "ریال"
+
+#. translators: 1: base amount, 2: sign, 3: unique part, 4: Varizet order code.
+#: src/Order/MetaBox.php:113
+#, php-format
+msgid "%1$s rial %2$s %3$s rial unique id, order %4$s"
+msgstr "%1$s ریال %2$s %3$s ریال شناسه یکتا، سفارش %4$s"
+
+#: src/Order/MetaBox.php:126
+#: src/Order/MetaBox.php:261
+msgid "Destination card"
+msgstr "کارت مقصد"
+
+#: src/Order/MetaBox.php:140
+msgid "Payment link"
+msgstr "لینک پرداخت"
+
+#: src/Order/MetaBox.php:148
+msgid "Match confidence"
+msgstr "امتیاز اطمینان تطبیق"
+
+#: src/Order/MetaBox.php:161
+msgid "Payer card"
+msgstr "کارت پرداخت‌کننده"
+
+#: src/Order/MetaBox.php:166
+msgid "Card declared at checkout"
+msgstr "کارت اعلام‌شده در صفحه پرداخت"
+
+#: src/Order/MetaBox.php:170
+msgid "Timeline"
+msgstr "تایم‌لاین"
+
+#: src/Order/MetaBox.php:182
+msgid "Sync status"
+msgstr "همگام‌سازی وضعیت"
+
+#: src/Order/MetaBox.php:183
+msgid "Review in the Varizet panel"
+msgstr "بررسی در پنل واریزت"
+
+#: src/Order/MetaBox.php:183
+msgid "View in the Varizet panel"
+msgstr "مشاهده در پنل واریزت"
+
+#. translators: %s: time since.
+#: src/Order/MetaBox.php:188
+#, php-format
+msgid "Last synced %s"
+msgstr "آخرین همگام‌سازی %s"
+
+#: src/Order/MetaBox.php:202
+msgid "You are not allowed to edit orders."
+msgstr "اجازه ویرایش سفارش‌ها را ندارید."
+
+#: src/Order/MetaBox.php:206
+msgid "Order not found."
+msgstr "سفارش پیدا نشد."
+
+#. translators: 1: Varizet status, 2: result.
+#: src/Order/MetaBox.php:217
+#, php-format
+msgid "Synced with Varizet: %1$s (%2$s)."
+msgstr "همگام‌سازی با واریزت: %1$s (%2$s)."
+
+#: src/Order/MetaBox.php:219
+msgid "updated"
+msgstr "به‌روز شد"
+
+#: src/Order/MetaBox.php:219
+msgid "no change"
+msgstr "بدون تغییر"
+
+#. translators: %s: error.
+#: src/Order/MetaBox.php:225
+#, php-format
+msgid "Sync failed: %s"
+msgstr "همگام‌سازی ناموفق بود: %s"
+
+#: src/Order/MetaBox.php:258
+msgid "Exact amount"
+msgstr "مبلغ دقیق"
+
+#: src/Order/MetaBox.php:259
+msgid "Amount within tolerance"
+msgstr "مبلغ در محدوده مجاز"
+
+#: src/Order/MetaBox.php:260
+msgid "Amount differs"
+msgstr "مبلغ متفاوت"
+
+#: src/Order/MetaBox.php:262
+msgid "Destination card ambiguous"
+msgstr "کارت مقصد نامشخص"
+
+#: src/Order/MetaBox.php:263
+msgid "Different destination card"
+msgstr "کارت مقصد متفاوت"
+
+#: src/Order/MetaBox.php:264
+msgid "Time window"
+msgstr "بازه زمانی"
+
+#: src/Order/MetaBox.php:265
+msgid "Outside the time window"
+msgstr "خارج از بازه زمانی"
+
+#: src/Order/MetaBox.php:267
+msgid "Late payment"
+msgstr "پرداخت دیرهنگام"
+
+#: src/Order/MetaBox.php:268
+msgid "Customer said they paid"
+msgstr "اعلام واریز مشتری"
+
+#: src/Order/MetaBox.php:269
+msgid "Receipt matches"
+msgstr "رسید منطبق"
+
+#: src/Order/MetaBox.php:270
+msgid "Receipt differs"
+msgstr "رسید نامنطبق"
+
+#: src/Order/MetaBox.php:271
+msgid "Another order is close"
+msgstr "سفارش مشابه نزدیک"
+
+#: src/Order/MetaBox.php:272
+msgid "Several candidate orders"
+msgstr "چند سفارش نامزد"
+
+#: src/Order/MetaBox.php:273
+msgid "Blocked payer"
+msgstr "پرداخت‌کننده مسدود"
+
+#: src/Order/MetaBox.php:274
+msgid "Split payment"
+msgstr "پرداخت چندبخشی"
+
+#: src/Order/OrderSync.php:75
+msgid "Varizet is not connected for this order's environment."
+msgstr "واریزت برای محیط این سفارش متصل نیست."
+
+#. translators: %s: webhook event type such as order.paid.
+#: src/Order/OrderSync.php:148
+#, php-format
+msgid "Webhook %s received and verified"
+msgstr "وب‌هوک %s دریافت و تایید شد"
+
+#. translators: 1: old Varizet order code, 2: newer Varizet order code.
+#: src/Order/OrderSync.php:212
+#, php-format
+msgid "Varizet: the customer paid the earlier payment request %1$s. The newer request %2$s is being cancelled."
+msgstr "واریزت: مشتری درخواست پرداخت قبلی %1$s را پرداخت کرد. درخواست جدیدتر %2$s لغو می‌شود."
+
+#: src/Order/OrderSync.php:293
+msgid "Varizet: stock warning — this order was cancelled by WooCommerce and reopened after payment. Stock was reduced again; check that the items are still available."
+msgstr "واریزت: هشدار موجودی — این سفارش توسط ووکامرس لغو و پس از پرداخت بازگشایی شد. موجودی دوباره کم شد؛ موجود بودن کالاها را بررسی کنید."
+
+#. translators: %s: comma separated list of products with negative stock.
+#: src/Order/OrderSync.php:295
+#, php-format
+msgid "Varizet: stock warning — after reopening, these products are oversold: %s"
+msgstr "واریزت: هشدار موجودی — پس از بازگشایی، این محصولات بیش از موجودی فروخته شده‌اند: %s"
+
+#. translators: 1: paid amount in rial, 2: Varizet order code, 3: how the update arrived.
+#: src/Order/OrderSync.php:322
+#, php-format
+msgid "Varizet: payment of %1$s rial confirmed (order %2$s, via %3$s)."
+msgstr "واریزت: پرداخت %1$s ریال تایید شد (سفارش %2$s، از طریق %3$s)."
+
+#. translators: 1: paid amount in rial, 2: match score, 3: detection channel, 4: Varizet order code, 5: how the update arrived.
+#: src/Order/OrderSync.php:324
+#, php-format
+msgid "Varizet: payment of %1$s rial confirmed with score %2$d. Channel: %3$s; order %4$s (via %5$s)."
+msgstr "واریزت: پرداخت %1$s ریال با امتیاز %2$d تایید شد. کانال: %3$s؛ سفارش %4$s (از طریق %5$s)."
+
+#: src/Order/OrderSync.php:326
+msgid "Paid during the grace period."
+msgstr "در مهلت تکمیلی پرداخت شد."
+
+#: src/Order/OrderSync.php:330
+msgid "Varizet: this order was cancelled by WooCommerce (unpaid order timeout) but the customer paid afterwards. The order was reopened."
+msgstr "واریزت: این سفارش توسط ووکامرس لغو شده بود (مهلت سفارش پرداخت‌نشده) اما مشتری بعداً پرداخت کرد. سفارش بازگشایی شد."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:333
+#, php-format
+msgid "Varizet: a deposit was received but needs a manual review (order %s). Approve or reject it in the Varizet panel."
+msgstr "واریزت: واریز رسید اما نیاز به بررسی دستی دارد (سفارش %s). آن را در پنل واریزت تایید یا رد کنید."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:336
+#, php-format
+msgid "Varizet: a deposit arrived after this order was cancelled and needs a review (order %s). The order was reopened and put on hold."
+msgstr "واریزت: پس از لغو این سفارش واریزی رسید که نیاز به بررسی دارد (سفارش %s). سفارش بازگشایی و در انتظار بررسی قرار گرفت."
+
+#. translators: 1: received amount in rial, 2: expected amount in rial, 3: Varizet order code.
+#: src/Order/OrderSync.php:340
+#, php-format
+msgid "Varizet: underpaid — %1$s rial received of %2$s rial (order %3$s). The customer can pay the difference from the payment page."
+msgstr "واریزت: کم‌واریز — %1$s ریال از %2$s ریال دریافت شد (سفارش %3$s). مشتری می‌تواند مابه‌التفاوت را از صفحه پرداخت بپردازد."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:343
+#, php-format
+msgid "Varizet: the review was closed and order %s is awaiting payment again."
+msgstr "واریزت: بررسی بسته شد و سفارش %s دوباره در انتظار پرداخت است."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:346
+#, php-format
+msgid "Varizet: the payment window and grace period of order %s ended without a payment. The order was cancelled and stock was restored."
+msgstr "واریزت: مهلت پرداخت و مهلت تکمیلی سفارش %s بدون پرداخت تمام شد. سفارش لغو و موجودی به انبار برگشت."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:349
+#, php-format
+msgid "Varizet: the payment window and grace period of order %s ended without a payment. Marked as failed; stock was kept."
+msgstr "واریزت: مهلت پرداخت و مهلت تکمیلی سفارش %s بدون پرداخت تمام شد. سفارش ناموفق علامت خورد؛ موجودی حفظ شد."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:352
+#, php-format
+msgid "Varizet: order %s was cancelled in Varizet."
+msgstr "واریزت: سفارش %s در واریزت لغو شد."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:355
+#, php-format
+msgid "Varizet: a refund was recorded for order %s. The money transfer itself is done by the merchant."
+msgstr "واریزت: بازپرداخت سفارش %s ثبت شد. انتقال وجه را خود فروشنده انجام می‌دهد."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:358
+#, php-format
+msgid "Varizet: a partial refund was recorded for order %s. Record it in WooCommerce if needed."
+msgstr "واریزت: بازپرداخت جزئی سفارش %s ثبت شد. در صورت نیاز آن را در ووکامرس هم ثبت کنید."
+
+#. translators: %s: Varizet order code.
+#: src/Order/OrderSync.php:361
+#, php-format
+msgid "Varizet: a payment for order %s was confirmed but the order is already refunded in WooCommerce. Check it manually."
+msgstr "واریزت: پرداخت سفارش %s تایید شد اما سفارش در ووکامرس بازپرداخت شده است. آن را دستی بررسی کنید."
+
+#. translators: 1: status label, 2: match score.
+#: src/Order/OrderSync.php:377
+#, php-format
+msgid "%1$s, score %2$d"
+msgstr "%1$s، امتیاز %2$d"
+
+#: src/Order/OrderSync.php:389
+msgid "Awaiting payment"
+msgstr "در انتظار پرداخت"
+
+#: src/Order/OrderSync.php:390
+msgid "Needs review"
+msgstr "نیاز به بررسی"
+
+#: src/Order/OrderSync.php:391
+#: src/ThankYou/LiveStatus.php:112
+msgid "Underpaid"
+msgstr "کم‌واریز"
+
+#: src/Order/OrderSync.php:392
+msgid "Paid"
+msgstr "پرداخت شد"
+
+#: src/Order/OrderSync.php:393
+#: src/ThankYou/LiveStatus.php:113
+msgid "Expired"
+msgstr "منقضی شد"
+
+#: src/Order/OrderSync.php:394
+#: src/ThankYou/LiveStatus.php:114
+msgid "Cancelled"
+msgstr "لغو شد"
+
+#: src/Order/OrderSync.php:395
+msgid "Refunded"
+msgstr "بازپرداخت‌شده"
+
+#: src/Order/OrderSync.php:396
+msgid "Partially refunded"
+msgstr "بازپرداخت جزئی"
+
+#: src/Order/OrderSync.php:407
+msgid "bank SMS (Android app)"
+msgstr "پیامک بانک (اپ اندروید)"
+
+#: src/Order/OrderSync.php:408
+msgid "bank app notification (Android)"
+msgstr "اعلان اپ بانک (اندروید)"
+
+#: src/Order/OrderSync.php:409
+msgid "iOS Shortcut"
+msgstr "میان‌بر iOS"
+
+#: src/Order/OrderSync.php:410
+msgid "GSM modem"
+msgstr "مودم GSM"
+
+#: src/Order/OrderSync.php:411
+msgid "open banking"
+msgstr "بانکداری باز"
+
+#: src/Order/OrderSync.php:412
+msgid "SMS forwarded to the bot"
+msgstr "فوروارد پیامک به ربات"
+
+#: src/Order/OrderSync.php:413
+msgid "uploaded receipt"
+msgstr "رسید بارگذاری‌شده"
+
+#: src/Order/OrderSync.php:414
+msgid "manual confirmation"
+msgstr "تایید دستی"
+
+#: src/Order/OrderSync.php:426
+msgid "signed webhook"
+msgstr "وب‌هوک امضاشده"
+
+#: src/Order/OrderSync.php:427
+msgid "background sync"
+msgstr "همگام‌سازی پشتیبان"
+
+#: src/Order/OrderSync.php:428
+msgid "thank-you page"
+msgstr "صفحه تشکر"
+
+#: src/Order/OrderSync.php:429
+msgid "manual sync"
+msgstr "همگام‌سازی دستی"
+
+#: src/ThankYou/LiveStatus.php:109
+#: templates/thankyou-widget.php:140
+msgid "Awaiting transfer"
+msgstr "در انتظار واریز"
+
+#: src/ThankYou/LiveStatus.php:110
+msgid "Being reviewed"
+msgstr "در حال بررسی"
+
+#: src/ThankYou/LiveStatus.php:111
+#: templates/thankyou-widget.php:142
+#: templates/thankyou-widget.php:150
+msgid "Payment confirmed"
+msgstr "پرداخت تایید شد"
+
+#: src/ThankYou/LiveStatus.php:118
+msgid "Reconnecting…"
+msgstr "در حال اتصال دوباره…"
+
+#: src/ThankYou/LiveStatus.php:119
+msgid "Live connection"
+msgstr "اتصال زنده"
+
+#: src/ThankYou/LiveStatus.php:120
+#: templates/thankyou-widget.php:163
+msgid "From card"
+msgstr "از کارت"
+
+#: src/ThankYou/LiveStatus.php:121
+msgid "Deposit received; matching it with your order…"
+msgstr "واریز دریافت شد؛ در حال تطبیق با سفارش شما…"
+
+#: src/ThankYou/LiveStatus.php:122
+msgid "Your transfer was received and is being reviewed by the store. No need to transfer again."
+msgstr "واریز شما دریافت شد و فروشگاه در حال بررسی آن است. نیازی به واریز دوباره نیست."
+
+#: src/ThankYou/LiveStatus.php:375
+msgid "Bank Melli"
+msgstr "بانک ملی"
+
+#: src/ThankYou/LiveStatus.php:376
+msgid "Bank Mellat"
+msgstr "بانک ملت"
+
+#: src/ThankYou/LiveStatus.php:377
+msgid "Bank Saderat"
+msgstr "بانک صادرات"
+
+#: src/ThankYou/LiveStatus.php:378
+msgid "Bank Tejarat"
+msgstr "بانک تجارت"
+
+#: src/ThankYou/LiveStatus.php:379
+msgid "Saman Bank"
+msgstr "بانک سامان"
+
+#: src/ThankYou/LiveStatus.php:380
+msgid "Pasargad Bank"
+msgstr "بانک پاسارگاد"
+
+#: src/ThankYou/LiveStatus.php:381
+msgid "Bank Sepah"
+msgstr "بانک سپه"
+
+#: src/ThankYou/LiveStatus.php:382
+msgid "Refah Bank"
+msgstr "بانک رفاه"
+
+#: src/ThankYou/LiveStatus.php:383
+msgid "Bank Maskan"
+msgstr "بانک مسکن"
+
+#: src/ThankYou/LiveStatus.php:384
+msgid "Bank Keshavarzi"
+msgstr "بانک کشاورزی"
+
+#: src/ThankYou/LiveStatus.php:385
+msgid "Parsian Bank"
+msgstr "بانک پارسیان"
+
+#: src/ThankYou/LiveStatus.php:386
+msgid "Shahr Bank"
+msgstr "بانک شهر"
+
+#: src/ThankYou/LiveStatus.php:387
+msgid "Ayandeh Bank"
+msgstr "بانک آینده"
+
+#: src/ThankYou/LiveStatus.php:388
+msgid "EN Bank"
+msgstr "بانک اقتصاد نوین"
+
+#: src/ThankYou/LiveStatus.php:389
+msgid "Blu Bank"
+msgstr "بلوبانک"
+
+#: src/ThankYou/LiveStatus.php:390
+msgid "Resalat Bank"
+msgstr "بانک رسالت"
+
+#: templates/thankyou-widget.php:39
+msgid "Pay with Varizet"
+msgstr "پرداخت با واریزت"
+
+#: templates/thankyou-widget.php:52
+msgid "Amount to pay"
+msgstr "مبلغ قابل پرداخت"
+
+#. translators: 1: amount in the store currency, 2: Varizet order code.
+#: templates/thankyou-widget.php:62
+#, php-format
+msgid "Equals %1$s; order %2$s"
+msgstr "معادل %1$s؛ سفارش %2$s"
+
+#. translators: %s: Varizet order code.
+#: templates/thankyou-widget.php:71
+#, php-format
+msgid "Order %s"
+msgstr "سفارش %s"
+
+#: templates/thankyou-widget.php:79
+#: templates/thankyou-widget.php:83
+msgid "Time left"
+msgstr "زمان باقی‌مانده"
+
+#. translators: %s: number of highlighted digits.
+#: templates/thankyou-widget.php:90
+#, php-format
+msgid "The %s amber digits identify your payment; transfer exactly this amount, in rial."
+msgstr "%s رقم کهربایی شناسه پرداخت شما هستند؛ مبلغ را دقیقاً با همین ارقام و به ریال واریز کنید."
+
+#: templates/thankyou-widget.php:96
+msgid "Copy amount"
+msgstr "کپی مبلغ"
+
+#. translators: 1: bank name, 2: card owner name.
+#: templates/thankyou-widget.php:115
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s، %2$s"
+
+#. translators: %s: card owner name.
+#: templates/thankyou-widget.php:119
+#, php-format
+msgid "owner: %s"
+msgstr "به نام %s"
+
+#: templates/thankyou-widget.php:129
+msgid "Copy card number"
+msgstr "کپی شماره کارت"
+
+#: templates/thankyou-widget.php:133
+msgid "Open the payment page"
+msgstr "باز کردن صفحه پرداخت"
+
+#: templates/thankyou-widget.php:138
+msgid "Payment status"
+msgstr "وضعیت پرداخت"
+
+#: templates/thankyou-widget.php:140
+msgid "Transfer the amount above to the card from your bank app."
+msgstr "از اپ بانک خود، مبلغ بالا را به این کارت واریز کنید."
+
+#: templates/thankyou-widget.php:141
+msgid "Transfer received"
+msgstr "واریز دریافت شد"
+
+#: templates/thankyou-widget.php:141
+msgid "Usually visible a few seconds after you transfer."
+msgstr "پس از واریز، معمولاً در چند ثانیه دیده می‌شود."
+
+#: templates/thankyou-widget.php:142
+msgid "Your order is confirmed and prepared automatically."
+msgstr "سفارش شما خودکار تایید و آماده‌سازی می‌شود."
+
+#: templates/thankyou-widget.php:144
+msgid "Keep this page open; no need to refresh or send a receipt."
+msgstr "این صفحه را باز نگه دارید؛ نیازی به رفرش یا ارسال رسید نیست."
+
+#. translators: 1: order number, 2: store name.
+#: templates/thankyou-widget.php:155
+#, php-format
+msgid "Order #%1$s is confirmed and %2$s is preparing it."
+msgstr "سفارش #%1$s تایید شد و %2$s در حال آماده‌سازی آن است."
+
+#: templates/thankyou-widget.php:162
+msgid "Amount paid"
+msgstr "مبلغ واریزی"
+
+#: templates/thankyou-widget.php:164
+msgid "Order status"
+msgstr "وضعیت سفارش"
+
+#: templates/thankyou-widget.php:170
+msgid "The payment time for this order has ended. If you already transferred the money, it will still be matched; otherwise you can try again."
+msgstr "مهلت پرداخت این سفارش تمام شده است. اگر واریز کرده‌اید همچنان تطبیق داده می‌شود؛ در غیر این صورت می‌توانید دوباره پرداخت کنید."
+
+#: templates/thankyou-widget.php:171
+msgid "Pay again"
+msgstr "پرداخت دوباره"
+
+#: templates/thankyou-widget.php:180
+msgid "Varizet has verified that this card belongs to the store."
+msgstr "مالکیت این کارت توسط واریزت برای این فروشگاه تایید شده است."
+
+#: templates/thankyou-widget.php:181
+msgid "Payments are matched automatically by Varizet."
+msgstr "پرداخت‌ها به‌صورت خودکار توسط واریزت تطبیق داده می‌شوند."
+
+#: templates/thankyou-widget.php:186
+msgid "Open the full payment page"
+msgstr "باز کردن صفحه کامل پرداخت"
+
+#. translators: 1: required PHP version, 2: current PHP version.
+#: varizet-woocommerce.php:68
+#, php-format
+msgid "Varizet for WooCommerce needs PHP %1$s or newer. This server runs PHP %2$s."
+msgstr "افزونه واریزت برای ووکامرس به PHP نسخه %1$s یا جدیدتر نیاز دارد. این سرور PHP %2$s دارد."
+
+#. Description of the plugin
+#: varizet-woocommerce.php
+msgid "Card-to-card payments with automatic confirmation for WooCommerce and Easy Digital Downloads. Signed webhooks, a polling fallback, a live thank-you widget and a system status page."
+msgstr "پرداخت کارت به کارت با تایید خودکار برای ووکامرس و Easy Digital Downloads؛ وب‌هوک امضاشده، همگام‌سازی پشتیبان، ویجت وضعیت زنده در صفحه تشکر و صفحه وضعیت سیستم."
+
+#: src/Edd/EddGateway.php:58
+msgid "Varizet (card-to-card)"
+msgstr "واریزت (کارت به کارت)"
+
+#: src/Edd/EddGateway.php:79
+msgid "Nonce verification failed."
+msgstr "اعتبارسنجی درخواست ناموفق بود؛ صفحه را تازه کنید و دوباره تلاش کنید."
+
+#: src/Edd/EddGateway.php:101
+#: src/Edd/EddGateway.php:108
+msgid "Payment error"
+msgstr "خطای پرداخت"
+
+#: src/Edd/EddGateway.php:101
+msgid "EDD could not create the order."
+msgstr "EDD نتوانست سفارش را بسازد."
+
+#: src/Edd/EddGateway.php:102
+msgid "Your order could not be created. Please try again."
+msgstr "سفارش شما ثبت نشد. لطفاً دوباره تلاش کنید."
+
+#. translators: %s: currency code.
+#: src/Edd/EddGateway.php:133
+#, php-format
+msgid "Varizet accepts rial and toman prices only (store currency: %s)."
+msgstr "واریزت فقط قیمت ریالی و تومانی را می‌پذیرد (واحد پول فروشگاه: %s)."
+
+#. translators: %s: Live or Test.
+#: src/Edd/EddGateway.php:279
+#, php-format
+msgid "Connected (%s)."
+msgstr "متصل (%s)."
+
+#. translators: %s: Live or Test.
+#: src/Edd/EddGateway.php:281
+#, php-format
+msgid "Not connected in %s mode."
+msgstr "در حالت %s متصل نیست."
+
+#: src/Edd/EddGateway.php:293
+msgid "Manage the Varizet connection"
+msgstr "مدیریت اتصال واریزت"
+
+#: src/Edd/EddGateway.php:294
+msgid "EDD test mode uses the Varizet test key; the payment window and order prefix follow the Varizet settings."
+msgstr "حالت آزمایشی EDD از کلید Test واریزت استفاده می‌کند؛ مهلت پرداخت از تنظیمات واریزت پیروی می‌کند."
+
+#: src/Edd/EddGateway.php:311
+msgid "Every 5 minutes (Varizet)"
+msgstr "هر ۵ دقیقه (واریزت)"
+
+#. translators: 1: Varizet order code, 2: amount received in rial.
+#: src/Edd/EddSync.php:198
+#, php-format
+msgid "Varizet payment %1$s confirmed (%2$s rial received)."
+msgstr "پرداخت واریزت %1$s تایید شد (%2$s ریال دریافت شد)."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:201
+#, php-format
+msgid "Varizet payment %s arrived after the order was closed; the order was completed. Check the delivery."
+msgstr "پرداخت واریزت %s پس از بسته‌شدن سفارش رسید و سفارش تکمیل شد. تحویل را بررسی کنید."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:204
+#, php-format
+msgid "Varizet reports %s as paid, but this order is refunded here."
+msgstr "واریزت سفارش %s را پرداخت‌شده گزارش می‌کند، اما این سفارش اینجا بازپرداخت شده است."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:208
+#, php-format
+msgid "The deposit for Varizet order %s needs review in the Varizet panel."
+msgstr "واریزی سفارش واریزت %s نیاز به بررسی در پنل واریزت دارد."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:212
+#, php-format
+msgid "Less than the unique amount arrived for Varizet order %s; review it in the Varizet panel."
+msgstr "برای سفارش واریزت %s کمتر از مبلغ یکتا واریز شده است؛ در پنل واریزت بررسی کنید."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:215
+#, php-format
+msgid "The payment window of Varizet order %s ended."
+msgstr "مهلت پرداخت سفارش واریزت %s تمام شد."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:218
+#, php-format
+msgid "Varizet order %s was canceled."
+msgstr "سفارش واریزت %s لغو شد."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:221
+#, php-format
+msgid "Varizet order %s was refunded in the Varizet panel."
+msgstr "سفارش واریزت %s در پنل واریزت بازپرداخت ثبت شد."
+
+#. translators: %s: Varizet order code.
+#: src/Edd/EddSync.php:224
+#, php-format
+msgid "Varizet order %s was partially refunded in the Varizet panel."
+msgstr "بخشی از سفارش واریزت %s در پنل واریزت بازپرداخت ثبت شد."
+
+#: src/Health/HealthChecks.php:207
+msgid "WordPress and Easy Digital Downloads"
+msgstr "وردپرس و Easy Digital Downloads"
+
+#. translators: 1: WordPress version, 2: EDD version.
+#: src/Health/HealthChecks.php:210
+#, php-format
+msgid "WordPress %1$s, Easy Digital Downloads %2$s (requires 6.4 and 3.0 or newer)."
+msgstr "وردپرس %1$s، Easy Digital Downloads %2$s (حداقل ۶٫۴ و ۳٫۰)."
+
+#: src/Plugin.php:197
+msgid "Varizet needs WooCommerce or Easy Digital Downloads 3 to be installed and active."
+msgstr "واریزت به ووکامرس یا Easy Digital Downloads نسخه ۳ نیاز دارد که نصب و فعال باشد."
